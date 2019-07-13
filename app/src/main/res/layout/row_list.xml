@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/day"
+        android:layout_weight="1"
+        android:text="Thứ hai"
+        android:textSize="25dp"
+        android:textColor="#020000"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/img"
+        android:text="icon"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22-23"
+        android:id="@+id/temp-mm"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textSize="25dp"
+        android:textColor="#020000"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+</LinearLayout>
